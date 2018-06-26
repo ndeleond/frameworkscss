@@ -1,0 +1,68 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background: linear-gradient(#f2f2f2,#3F88C5);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0 auto;
+    font-family: 'Noticia Text', serif;
+}
+
+header{
+    background-color: #f2f2f2;
+    height: auto;
+}
+.logo img{
+    margin: 10px;
+    width: 30%;
+    padding-top: 5px;
+    float: left;
+}
+.redes-sociales{
+    font-size: 40px;
+    padding-right: 50px;
+}
+.redes-sociales li{
+    list-style: none;
+    padding-left: 25px;
+}
+.facebook:hover{
+    color: #3F88C5;
+}
+.twitter:hover{
+    color: #1da1f2;
+}
+.pinterest:hover{
+    color: #bd081c;
+}
+.tumblr:hover{
+    color: #35465c;
+}
+
+/*fin HEADER*/
+.nav-item{
+    background: #addaf7;
+    border-radius: 5px;
+}
+.nav-item:hover{
+    background: #4e98ff;
+}
+
+
+/*Contenido*/
+#cont{ 
+    background:#f2f2f2;
+    width: 100%;
+}
+
+textarea{
+    margin-bottom: 10px;
+}
+#comentario{
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 150px;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+hr{
+	border-color: rgba(243, 54, 54,.3);
+	box-shadow: none;
+}
+.logo{
+	padding: 10px 0 10px 0;
+	border-radius: 80px;
+}
+nav{
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.slogan{
+	font-weight: 500;
+    font-style: italic;
+    color: white;
+	text-shadow: 3px 3px 5px rgba(241, 145, 250, 0.179);
+}
+h4{
+    font-weight: bold;
+}
+.icon a img{
+	line-height: 50px;
+    display: block;
+    border-radius: 10px;
+	width: 75%;
+	margin: 3px auto;
+	background-color: white;
+}
+.articulo{
+    width: 70%;  
+}
+.card-content{
+    font-family: fantasy;
+}
+.card-panel>img{
+    width: 100%;
+    
+}
+.chip i{
+    padding: 3px 5px;
+}

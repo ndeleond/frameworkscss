@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+    font-size: 16px;
+}
+
+.grid-x{
+    margin: 0 auto;
+    width: 80%;
+    
+    background-color:rgba(55, 16, 199, 0.3);
+
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #c3e7ff;
+}
+h3{
+    font-size: 1.75em;
+    color: rgb(90, 2, 2);
+}
+#slogan{
+    color: #fff;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+
+.lateral{
+    background: #c3e7ff;
+    color: black;
+
+}
+
+ul.links{
+    margin: 3px 0;
+}
+
+.vertical>li>a:hover{
+    background: #05619e;
+    color: white;
+}
+.fotos img{
+    width: 33.3%;
+    display: flex;
+    float: left;
+    padding: 2px;
+}
+
+.contenido{
+    width: 75%;
+    font-family: 1em;
+}
+.articulo{
+    padding-bottom: 20px;
+    border-bottom: 5px solid white;
+}
+.articulo h2{
+    color: #fff;
+    font-family: fantasy;
+}
+.articulo>p{
+    color: yellow;
+    font-size: .9em;
+    font-weight: 600;
+}
+.articulo>img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    border: 4px solid white;
+    border-radius: 4px;
+}
+.vertical p{
+    padding: 0 10px;
+    text-align: justify;
+    color: #fff;
+}
+.comentario i{
+    font-size: 1.3em;
+}
